@@ -1,5 +1,14 @@
-/docs
-/src
-/etc
-/temp
-/node_modules
+# Folders
+.changeset
+.github
+docs
+src
+etc
+temp
+node_modules
+# Config Files and lock Files
+api-extractor.json
+.editorconfig
+.gitignore
+pnpm-lock.yaml
+tsconfig.json
