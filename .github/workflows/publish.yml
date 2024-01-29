@@ -62,11 +62,12 @@ jobs:
         uses: changesets/action@v1
         with:
           publish: pnpm run release
+          registry-url: 'https://registry.npmjs.org/'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # NPM_TOKEN not needed here unless your release process involves npm actions
 
       - name: Publish package to npm
-        run: pnpm publish --registry=https://registry.npmjs.org/ --force
+        run: pnpm publish --registry=https://registry.npmjs.org/
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}  # Use correct token variable for npm
