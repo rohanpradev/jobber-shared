@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface ILanguage 
+interface ILanguage 
 ```
 
 ## Properties

@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IReviewDocument 
+interface IReviewDocument 
 ```
 
 ## Properties

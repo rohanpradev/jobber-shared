@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IMessageDetails 
+interface IMessageDetails 
 ```
 
 ## Properties

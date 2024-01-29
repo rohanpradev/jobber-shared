@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IBuyerDocument 
+interface IBuyerDocument 
 ```
 
 ## Properties

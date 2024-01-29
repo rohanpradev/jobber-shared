@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IPaginateProps 
+interface IPaginateProps 
 ```
 
 ## Properties

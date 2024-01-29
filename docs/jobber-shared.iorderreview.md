@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IOrderReview 
+interface IOrderReview 
 ```
 
 ## Properties

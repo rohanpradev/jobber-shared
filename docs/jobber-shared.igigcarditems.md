@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IGigCardItems 
+interface IGigCardItems 
 ```
 
 ## Properties

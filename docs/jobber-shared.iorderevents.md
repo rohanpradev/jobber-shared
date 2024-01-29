@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IOrderEvents 
+interface IOrderEvents 
 ```
 
 ## Properties

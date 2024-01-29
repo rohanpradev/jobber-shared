@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface ITerm 
+interface ITerm 
 ```
 
 ## Properties

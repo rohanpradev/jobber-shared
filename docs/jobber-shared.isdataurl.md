@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export declare function isDataURL(value: string): boolean;
+declare function isDataURL(value: string): boolean;
 ```
 
 ## Parameters

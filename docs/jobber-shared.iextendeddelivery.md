@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IExtendedDelivery 
+interface IExtendedDelivery 
 ```
 
 ## Properties

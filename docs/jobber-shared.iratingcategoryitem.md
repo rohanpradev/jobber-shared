@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IRatingCategoryItem 
+interface IRatingCategoryItem 
 ```
 
 ## Properties

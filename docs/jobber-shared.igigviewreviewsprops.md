@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IGigViewReviewsProps 
+interface IGigViewReviewsProps 
 ```
 
 ## Properties

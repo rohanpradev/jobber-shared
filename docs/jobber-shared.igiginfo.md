@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IGigInfo 
+interface IGigInfo 
 ```
 
 ## Properties

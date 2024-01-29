@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IDeliveredWork 
+interface IDeliveredWork 
 ```
 
 ## Properties

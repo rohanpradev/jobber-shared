@@ -13,7 +13,7 @@ export function lowerCase(str: string): string {
   return str.toLowerCase();
 }
 
-export const toUpperCase = (str: string): string => {
+export const upperCase = (str: string): string => {
   return str ? str.toUpperCase() : str;
 };
 

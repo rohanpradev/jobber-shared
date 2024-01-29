@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IAuthResponse 
+interface IAuthResponse 
 ```
 
 ## Properties

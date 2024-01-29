@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IReduxBuyer 
+interface IReduxBuyer 
 ```
 
 ## Properties

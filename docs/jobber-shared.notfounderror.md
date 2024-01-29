@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export declare class NotFoundError extends CustomError 
+declare class NotFoundError extends CustomError 
 ```
 **Extends:** [CustomError](./jobber-shared.customerror.md)
 

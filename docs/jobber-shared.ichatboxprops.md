@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IChatBoxProps 
+interface IChatBoxProps 
 ```
 
 ## Properties

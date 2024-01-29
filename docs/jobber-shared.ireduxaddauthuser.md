@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IReduxAddAuthUser 
+interface IReduxAddAuthUser 
 ```
 
 ## Properties

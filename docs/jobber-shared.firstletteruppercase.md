@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export declare function firstLetterUppercase(str: string): string;
+declare function firstLetterUppercase(str: string): string;
 ```
 
 ## Parameters

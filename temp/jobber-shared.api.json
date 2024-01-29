@@ -179,7 +179,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class BadRequestError extends "
+              "text": "declare class BadRequestError extends "
             },
             {
               "kind": "Reference",
@@ -191,7 +191,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/error-handler.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "BadRequestError",
@@ -320,7 +320,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare abstract class CustomError extends "
+              "text": "declare abstract class CustomError extends "
             },
             {
               "kind": "Reference",
@@ -332,7 +332,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/error-handler.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "isAbstract": true,
           "name": "CustomError",
@@ -522,10 +522,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface ErrornoException "
+              "text": "interface ErrornoException "
             }
           ],
-          "fileUrlPath": "dist/error-handler.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ErrornoException",
           "preserveMemberOrder": false,
@@ -675,7 +675,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class FileTooLargeError extends "
+              "text": "declare class FileTooLargeError extends "
             },
             {
               "kind": "Reference",
@@ -687,7 +687,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/error-handler.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "FileTooLargeError",
@@ -816,7 +816,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function firstLetterUppercase(str: "
+              "text": "declare function firstLetterUppercase(str: "
             },
             {
               "kind": "Content",
@@ -835,7 +835,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/helpers.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -861,7 +861,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export type GigType = "
+              "text": "type GigType = "
             },
             {
               "kind": "Content",
@@ -872,7 +872,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/interfaces/gig.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "GigType",
           "typeTokenRange": {
@@ -887,10 +887,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IAuth "
+              "text": "interface IAuth "
             }
           ],
-          "fileUrlPath": "dist/interfaces/auth.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IAuth",
           "preserveMemberOrder": false,
@@ -1040,10 +1040,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IAuthBuyerMessageDetails "
+              "text": "interface IAuthBuyerMessageDetails "
             }
           ],
-          "fileUrlPath": "dist/interfaces/auth.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IAuthBuyerMessageDetails",
           "preserveMemberOrder": false,
@@ -1221,10 +1221,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IAuthDocument "
+              "text": "interface IAuthDocument "
             }
           ],
-          "fileUrlPath": "dist/interfaces/auth.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IAuthDocument",
           "preserveMemberOrder": false,
@@ -1693,10 +1693,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IAuthPayload "
+              "text": "interface IAuthPayload "
             }
           ],
-          "fileUrlPath": "dist/interfaces/auth.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IAuthPayload",
           "preserveMemberOrder": false,
@@ -1819,10 +1819,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IAuthResponse "
+              "text": "interface IAuthResponse "
             }
           ],
-          "fileUrlPath": "dist/interfaces/auth.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IAuthResponse",
           "preserveMemberOrder": false,
@@ -1864,10 +1864,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IAuthUser "
+              "text": "interface IAuthUser "
             }
           ],
-          "fileUrlPath": "dist/interfaces/auth.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IAuthUser",
           "preserveMemberOrder": false,
@@ -2221,10 +2221,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IBuyerDocument "
+              "text": "interface IBuyerDocument "
             }
           ],
-          "fileUrlPath": "dist/interfaces/buyer.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IBuyerDocument",
           "preserveMemberOrder": false,
@@ -2497,10 +2497,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface ICertificate "
+              "text": "interface ICertificate "
             }
           ],
-          "fileUrlPath": "dist/interfaces/seller.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ICertificate",
           "preserveMemberOrder": false,
@@ -2667,10 +2667,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IChatBoxProps "
+              "text": "interface IChatBoxProps "
             }
           ],
-          "fileUrlPath": "dist/interfaces/chat.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IChatBoxProps",
           "preserveMemberOrder": false,
@@ -2795,10 +2795,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IChatBuyerProps "
+              "text": "interface IChatBuyerProps "
             }
           ],
-          "fileUrlPath": "dist/interfaces/chat.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IChatBuyerProps",
           "preserveMemberOrder": false,
@@ -2894,10 +2894,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IChatMessageProps "
+              "text": "interface IChatMessageProps "
             }
           ],
-          "fileUrlPath": "dist/interfaces/chat.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IChatMessageProps",
           "preserveMemberOrder": false,
@@ -2996,10 +2996,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IChatSellerProps "
+              "text": "interface IChatSellerProps "
             }
           ],
-          "fileUrlPath": "dist/interfaces/chat.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IChatSellerProps",
           "preserveMemberOrder": false,
@@ -3122,7 +3122,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IConversationDocument extends "
+              "text": "interface IConversationDocument extends "
             },
             {
               "kind": "Reference",
@@ -3134,7 +3134,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/interfaces/chat.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IConversationDocument",
           "preserveMemberOrder": false,
@@ -3267,7 +3267,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface ICreateGig extends "
+              "text": "interface ICreateGig extends "
             },
             {
               "kind": "Reference",
@@ -3292,7 +3292,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/interfaces/gig.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ICreateGig",
           "preserveMemberOrder": false,
@@ -3636,10 +3636,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IDeliveredWork "
+              "text": "interface IDeliveredWork "
             }
           ],
-          "fileUrlPath": "dist/interfaces/order.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IDeliveredWork",
           "preserveMemberOrder": false,
@@ -3789,10 +3789,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IEducation "
+              "text": "interface IEducation "
             }
           ],
-          "fileUrlPath": "dist/interfaces/seller.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IEducation",
           "preserveMemberOrder": false,
@@ -4013,10 +4013,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IEmailLocals "
+              "text": "interface IEmailLocals "
             }
           ],
-          "fileUrlPath": "dist/interfaces/email.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IEmailLocals",
           "preserveMemberOrder": false,
@@ -4733,10 +4733,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IEmailMessageDetails "
+              "text": "interface IEmailMessageDetails "
             }
           ],
-          "fileUrlPath": "dist/interfaces/auth.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IEmailMessageDetails",
           "preserveMemberOrder": false,
@@ -4886,10 +4886,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IError "
+              "text": "interface IError "
             }
           ],
-          "fileUrlPath": "dist/error-handler.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IError",
           "preserveMemberOrder": false,
@@ -5012,10 +5012,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IErrorResponse "
+              "text": "interface IErrorResponse "
             }
           ],
-          "fileUrlPath": "dist/error-handler.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IErrorResponse",
           "preserveMemberOrder": false,
@@ -5167,10 +5167,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IExperience "
+              "text": "interface IExperience "
             }
           ],
-          "fileUrlPath": "dist/interfaces/seller.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IExperience",
           "preserveMemberOrder": false,
@@ -5418,10 +5418,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IExtendedDelivery "
+              "text": "interface IExtendedDelivery "
             }
           ],
-          "fileUrlPath": "dist/interfaces/order.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IExtendedDelivery",
           "preserveMemberOrder": false,
@@ -5571,10 +5571,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IForgotPassword "
+              "text": "interface IForgotPassword "
             }
           ],
-          "fileUrlPath": "dist/interfaces/auth.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IForgotPassword",
           "preserveMemberOrder": false,
@@ -5616,10 +5616,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IGigCardItems "
+              "text": "interface IGigCardItems "
             }
           ],
-          "fileUrlPath": "dist/interfaces/gig.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IGigCardItems",
           "preserveMemberOrder": false,
@@ -5716,10 +5716,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IGigContext "
+              "text": "interface IGigContext "
             }
           ],
-          "fileUrlPath": "dist/interfaces/gig.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IGigContext",
           "preserveMemberOrder": false,
@@ -5844,10 +5844,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IGigInfo "
+              "text": "interface IGigInfo "
             }
           ],
-          "fileUrlPath": "dist/interfaces/gig.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IGigInfo",
           "preserveMemberOrder": false,
@@ -5943,10 +5943,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IGigsProps "
+              "text": "interface IGigsProps "
             }
           ],
-          "fileUrlPath": "dist/interfaces/gig.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IGigsProps",
           "preserveMemberOrder": false,
@@ -6016,10 +6016,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IGigTopProps "
+              "text": "interface IGigTopProps "
             }
           ],
-          "fileUrlPath": "dist/interfaces/gig.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IGigTopProps",
           "preserveMemberOrder": false,
@@ -6201,10 +6201,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IGigViewReviewsProps "
+              "text": "interface IGigViewReviewsProps "
             }
           ],
-          "fileUrlPath": "dist/interfaces/gig.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IGigViewReviewsProps",
           "preserveMemberOrder": false,
@@ -6278,10 +6278,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IHitsTotal "
+              "text": "interface IHitsTotal "
             }
           ],
-          "fileUrlPath": "dist/interfaces/search.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IHitsTotal",
           "preserveMemberOrder": false,
@@ -6350,10 +6350,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface ILanguage "
+              "text": "interface ILanguage "
             }
           ],
-          "fileUrlPath": "dist/interfaces/seller.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ILanguage",
           "preserveMemberOrder": false,
@@ -6493,10 +6493,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IMessageDetails "
+              "text": "interface IMessageDetails "
             }
           ],
-          "fileUrlPath": "dist/interfaces/chat.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IMessageDetails",
           "preserveMemberOrder": false,
@@ -6754,10 +6754,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IMessageDocument "
+              "text": "interface IMessageDocument "
             }
           ],
-          "fileUrlPath": "dist/interfaces/chat.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IMessageDocument",
           "preserveMemberOrder": false,
@@ -7323,10 +7323,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IOffer "
+              "text": "interface IOffer "
             }
           ],
-          "fileUrlPath": "dist/interfaces/order.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IOffer",
           "preserveMemberOrder": false,
@@ -7628,10 +7628,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IOrderDocument "
+              "text": "interface IOrderDocument "
             }
           ],
-          "fileUrlPath": "dist/interfaces/order.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IOrderDocument",
           "preserveMemberOrder": false,
@@ -8520,10 +8520,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IOrderEvents "
+              "text": "interface IOrderEvents "
             }
           ],
-          "fileUrlPath": "dist/interfaces/order.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IOrderEvents",
           "preserveMemberOrder": false,
@@ -8727,10 +8727,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IOrderMessage "
+              "text": "interface IOrderMessage "
             }
           ],
-          "fileUrlPath": "dist/interfaces/order.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IOrderMessage",
           "preserveMemberOrder": false,
@@ -9609,10 +9609,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IOrderNotifcation "
+              "text": "interface IOrderNotifcation "
             }
           ],
-          "fileUrlPath": "dist/interfaces/order.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IOrderNotifcation",
           "preserveMemberOrder": false,
@@ -9952,10 +9952,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IOrderReview "
+              "text": "interface IOrderReview "
             }
           ],
-          "fileUrlPath": "dist/interfaces/order.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IOrderReview",
           "preserveMemberOrder": false,
@@ -10051,10 +10051,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IPaginateProps "
+              "text": "interface IPaginateProps "
             }
           ],
-          "fileUrlPath": "dist/interfaces/search.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IPaginateProps",
           "preserveMemberOrder": false,
@@ -10150,10 +10150,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IQueryList "
+              "text": "interface IQueryList "
             }
           ],
-          "fileUrlPath": "dist/interfaces/search.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IQueryList",
           "preserveMemberOrder": false,
@@ -10283,10 +10283,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IQueryString "
+              "text": "interface IQueryString "
             }
           ],
-          "fileUrlPath": "dist/interfaces/search.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IQueryString",
           "preserveMemberOrder": false,
@@ -10355,10 +10355,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IRatingCategories "
+              "text": "interface IRatingCategories "
             }
           ],
-          "fileUrlPath": "dist/interfaces/review.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IRatingCategories",
           "preserveMemberOrder": false,
@@ -10513,10 +10513,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IRatingCategoryItem "
+              "text": "interface IRatingCategoryItem "
             }
           ],
-          "fileUrlPath": "dist/interfaces/review.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IRatingCategoryItem",
           "preserveMemberOrder": false,
@@ -10585,10 +10585,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IRatingTypes "
+              "text": "interface IRatingTypes "
             }
           ],
-          "fileUrlPath": "dist/interfaces/review.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IRatingTypes",
           "preserveMemberOrder": false,
@@ -10647,10 +10647,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IReduxAddAuthUser "
+              "text": "interface IReduxAddAuthUser "
             }
           ],
-          "fileUrlPath": "dist/interfaces/auth.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IReduxAddAuthUser",
           "preserveMemberOrder": false,
@@ -10720,10 +10720,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IReduxAuthPayload "
+              "text": "interface IReduxAuthPayload "
             }
           ],
-          "fileUrlPath": "dist/interfaces/auth.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IReduxAuthPayload",
           "preserveMemberOrder": false,
@@ -10766,10 +10766,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IReduxBuyer "
+              "text": "interface IReduxBuyer "
             }
           ],
-          "fileUrlPath": "dist/interfaces/buyer.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IReduxBuyer",
           "preserveMemberOrder": false,
@@ -10839,10 +10839,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IReduxLogout "
+              "text": "interface IReduxLogout "
             }
           ],
-          "fileUrlPath": "dist/interfaces/auth.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IReduxLogout",
           "preserveMemberOrder": false,
@@ -10911,10 +10911,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IResetPassword "
+              "text": "interface IResetPassword "
             }
           ],
-          "fileUrlPath": "dist/interfaces/auth.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IResetPassword",
           "preserveMemberOrder": false,
@@ -11027,10 +11027,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IReviewDocument "
+              "text": "interface IReviewDocument "
             }
           ],
-          "fileUrlPath": "dist/interfaces/review.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IReviewDocument",
           "preserveMemberOrder": false,
@@ -11374,10 +11374,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IReviewMessageDetails "
+              "text": "interface IReviewMessageDetails "
             }
           ],
-          "fileUrlPath": "dist/interfaces/review.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IReviewMessageDetails",
           "preserveMemberOrder": false,
@@ -11608,7 +11608,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function isDataURL(value: "
+              "text": "declare function isDataURL(value: "
             },
             {
               "kind": "Content",
@@ -11627,7 +11627,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/helpers.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -11653,10 +11653,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface ISearchResult "
+              "text": "interface ISearchResult "
             }
           ],
-          "fileUrlPath": "dist/interfaces/search.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ISearchResult",
           "preserveMemberOrder": false,
@@ -11730,10 +11730,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface ISelectedBudget "
+              "text": "interface ISelectedBudget "
             }
           ],
-          "fileUrlPath": "dist/interfaces/gig.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ISelectedBudget",
           "preserveMemberOrder": false,
@@ -11802,7 +11802,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface ISellerDocument extends "
+              "text": "interface ISellerDocument extends "
             },
             {
               "kind": "Reference",
@@ -11827,7 +11827,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/interfaces/seller.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ISellerDocument",
           "preserveMemberOrder": false,
@@ -12612,10 +12612,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface ISellerGig "
+              "text": "interface ISellerGig "
             }
           ],
-          "fileUrlPath": "dist/interfaces/gig.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ISellerGig",
           "preserveMemberOrder": false,
@@ -13272,7 +13272,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function isEmail(email: "
+              "text": "declare function isEmail(email: "
             },
             {
               "kind": "Content",
@@ -13291,7 +13291,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/helpers.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -13317,10 +13317,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface ISignInPayload "
+              "text": "interface ISignInPayload "
             }
           ],
-          "fileUrlPath": "dist/interfaces/auth.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ISignInPayload",
           "preserveMemberOrder": false,
@@ -13433,10 +13433,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface ISignUpPayload "
+              "text": "interface ISignUpPayload "
             }
           ],
-          "fileUrlPath": "dist/interfaces/auth.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ISignUpPayload",
           "preserveMemberOrder": false,
@@ -13630,10 +13630,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface ITerm "
+              "text": "interface ITerm "
             }
           ],
-          "fileUrlPath": "dist/interfaces/search.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ITerm",
           "preserveMemberOrder": false,
@@ -13675,7 +13675,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function lowerCase(str: "
+              "text": "declare function lowerCase(str: "
             },
             {
               "kind": "Content",
@@ -13694,7 +13694,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/helpers.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -13720,7 +13720,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class NotAuthorizedError extends "
+              "text": "declare class NotAuthorizedError extends "
             },
             {
               "kind": "Reference",
@@ -13732,7 +13732,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/error-handler.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "NotAuthorizedError",
@@ -13861,7 +13861,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class NotFoundError extends "
+              "text": "declare class NotFoundError extends "
             },
             {
               "kind": "Reference",
@@ -13873,7 +13873,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/error-handler.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "NotFoundError",
@@ -14002,7 +14002,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export type SellerType = "
+              "text": "type SellerType = "
             },
             {
               "kind": "Content",
@@ -14103,7 +14103,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/interfaces/seller.interface.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SellerType",
           "typeTokenRange": {
@@ -14118,7 +14118,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class ServerError extends "
+              "text": "declare class ServerError extends "
             },
             {
               "kind": "Reference",
@@ -14130,7 +14130,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/error-handler.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "ServerError",
@@ -14254,29 +14254,6 @@
         },
         {
           "kind": "Variable",
-          "canonicalReference": "jobber-shared!toUpperCase:var",
-          "docComment": "",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "toUpperCase: "
-            },
-            {
-              "kind": "Content",
-              "text": "(str: string) => string"
-            }
-          ],
-          "fileUrlPath": "dist/helpers.d.ts",
-          "isReadonly": true,
-          "releaseTag": "Public",
-          "name": "toUpperCase",
-          "variableTypeTokenRange": {
-            "startIndex": 1,
-            "endIndex": 2
-          }
-        },
-        {
-          "kind": "Variable",
           "canonicalReference": "jobber-shared!uploadFile:var",
           "docComment": "",
           "excerptTokens": [
@@ -14325,13 +14302,36 @@
               "text": " | undefined>"
             }
           ],
-          "fileUrlPath": "dist/cloudinary-upload.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "uploadFile",
           "variableTypeTokenRange": {
             "startIndex": 1,
             "endIndex": 10
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "jobber-shared!upperCase:var",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "upperCase: "
+            },
+            {
+              "kind": "Content",
+              "text": "(str: string) => string"
+            }
+          ],
+          "fileUrlPath": "dist/index.d.ts",
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "upperCase",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
           }
         },
         {
@@ -14349,7 +14349,7 @@
               "canonicalReference": "@types/express!e.RequestHandler:interface"
             }
           ],
-          "fileUrlPath": "dist/gateway-middleware.d.ts",
+          "fileUrlPath": "dist/index.d.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "verifyGatewayRequest",

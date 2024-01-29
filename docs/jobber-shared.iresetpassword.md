@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IResetPassword 
+interface IResetPassword 
 ```
 
 ## Properties

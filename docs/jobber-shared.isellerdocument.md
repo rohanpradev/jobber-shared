@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface ISellerDocument extends Record<string, SellerType> 
+interface ISellerDocument extends Record<string, SellerType> 
 ```
 **Extends:** Record&lt;string, [SellerType](./jobber-shared.sellertype.md)<!-- -->&gt;
 

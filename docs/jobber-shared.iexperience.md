@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IExperience 
+interface IExperience 
 ```
 
 ## Properties

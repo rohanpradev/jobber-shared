@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IErrorResponse 
+interface IErrorResponse 
 ```
 
 ## Properties

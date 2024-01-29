@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface ICertificate 
+interface ICertificate 
 ```
 
 ## Properties

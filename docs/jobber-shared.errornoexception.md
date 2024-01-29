@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface ErrornoException 
+interface ErrornoException 
 ```
 
 ## Properties

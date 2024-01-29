@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IForgotPassword 
+interface IForgotPassword 
 ```
 
 ## Properties

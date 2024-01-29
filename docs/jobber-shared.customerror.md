@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export declare abstract class CustomError extends Error 
+declare abstract class CustomError extends Error 
 ```
 **Extends:** Error
 

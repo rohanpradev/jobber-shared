@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export declare class BadRequestError extends CustomError 
+declare class BadRequestError extends CustomError 
 ```
 **Extends:** [CustomError](./jobber-shared.customerror.md)
 

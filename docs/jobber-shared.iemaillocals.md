@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IEmailLocals 
+interface IEmailLocals 
 ```
 
 ## Properties

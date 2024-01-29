@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IEmailMessageDetails 
+interface IEmailMessageDetails 
 ```
 
 ## Properties

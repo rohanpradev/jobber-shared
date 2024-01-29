@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface ISignUpPayload 
+interface ISignUpPayload 
 ```
 
 ## Properties

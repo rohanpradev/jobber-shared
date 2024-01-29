@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IReduxLogout 
+interface IReduxLogout 
 ```
 
 ## Properties

@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IEducation 
+interface IEducation 
 ```
 
 ## Properties

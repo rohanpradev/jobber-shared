@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IAuthUser 
+interface IAuthUser 
 ```
 
 ## Properties

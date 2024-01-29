@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface ISelectedBudget 
+interface ISelectedBudget 
 ```
 
 ## Properties

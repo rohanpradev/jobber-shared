@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IHitsTotal 
+interface IHitsTotal 
 ```
 
 ## Properties

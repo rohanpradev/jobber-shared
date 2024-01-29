@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface ISearchResult 
+interface ISearchResult 
 ```
 
 ## Properties

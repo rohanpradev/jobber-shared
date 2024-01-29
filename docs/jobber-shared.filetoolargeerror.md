@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export declare class FileTooLargeError extends CustomError 
+declare class FileTooLargeError extends CustomError 
 ```
 **Extends:** [CustomError](./jobber-shared.customerror.md)
 

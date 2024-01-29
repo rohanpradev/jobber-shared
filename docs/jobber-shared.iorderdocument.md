@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IOrderDocument 
+interface IOrderDocument 
 ```
 
 ## Properties

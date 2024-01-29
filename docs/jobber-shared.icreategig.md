@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface ICreateGig extends Record<string, GigType> 
+interface ICreateGig extends Record<string, GigType> 
 ```
 **Extends:** Record&lt;string, [GigType](./jobber-shared.gigtype.md)<!-- -->&gt;
 

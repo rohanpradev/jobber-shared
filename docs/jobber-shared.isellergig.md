@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface ISellerGig 
+interface ISellerGig 
 ```
 
 ## Properties

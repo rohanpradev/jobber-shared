@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export declare class ServerError extends CustomError 
+declare class ServerError extends CustomError 
 ```
 **Extends:** [CustomError](./jobber-shared.customerror.md)
 

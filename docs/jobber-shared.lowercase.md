@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export declare function lowerCase(str: string): string;
+declare function lowerCase(str: string): string;
 ```
 
 ## Parameters

@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export declare function isEmail(email: string): boolean;
+declare function isEmail(email: string): boolean;
 ```
 
 ## Parameters

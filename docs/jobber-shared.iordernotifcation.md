@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IOrderNotifcation 
+interface IOrderNotifcation 
 ```
 
 ## Properties

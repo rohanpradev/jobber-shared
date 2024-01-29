@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IConversationDocument extends Document 
+interface IConversationDocument extends Document 
 ```
 **Extends:** Document
 

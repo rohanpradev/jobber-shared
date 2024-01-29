@@ -98,8 +98,8 @@
 
 |  Variable | Description |
 |  --- | --- |
-|  [toUpperCase](./jobber-shared.touppercase.md) |  |
 |  [uploadFile](./jobber-shared.uploadfile.md) |  |
+|  [upperCase](./jobber-shared.uppercase.md) |  |
 |  [verifyGatewayRequest](./jobber-shared.verifygatewayrequest.md) |  |
 
 ## Type Aliases

@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IChatBuyerProps 
+interface IChatBuyerProps 
 ```
 
 ## Properties

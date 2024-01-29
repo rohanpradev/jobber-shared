@@ -7,5 +7,5 @@
 **Signature:**
 
 ```typescript
-export type GigType = string | string[] | number | unknown | undefined;
+type GigType = string | string[] | number | unknown | undefined;
 ```

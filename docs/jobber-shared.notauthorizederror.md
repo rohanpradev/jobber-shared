@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export declare class NotAuthorizedError extends CustomError 
+declare class NotAuthorizedError extends CustomError 
 ```
 **Extends:** [CustomError](./jobber-shared.customerror.md)
 

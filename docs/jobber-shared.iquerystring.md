@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IQueryString 
+interface IQueryString 
 ```
 
 ## Properties

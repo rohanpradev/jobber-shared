@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export interface IOffer 
+interface IOffer 
 ```
 
 ## Properties
