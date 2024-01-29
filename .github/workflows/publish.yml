@@ -68,6 +68,6 @@ jobs:
           # NPM_TOKEN not needed here unless your release process involves npm actions
 
       - name: Publish package to npm
-        run: pnpm publish --registry=https://registry.npmjs.org/
+        run: pnpm publish --registry=https://registry.npmjs.org/ --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}  # Use correct token variable for npm
