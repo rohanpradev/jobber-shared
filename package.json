@@ -1,10 +1,11 @@
 {
   "name": "jobber-shared",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
-  "main": "dist/index.js",
   "description": "Helpers library for Jobber app",
-  "types": "dist/jobber-shared.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/jobber-shared.d.ts",
   "engines": {
     "node": ">=18"
   },
@@ -15,15 +16,25 @@
     "api-report": "api-extractor run",
     "api-report-local": "api-extractor run --local",
     "api-docs": "api-documenter markdown -i temp -o docs",
-    "build-with-docs": "pnpm build && pnpm api-report-local && pnpm api-docs"
+    "build-with-docs": "pnpm build && pnpm api-report-local && pnpm api-docs",
+    "release": "pnpm run build && changeset publish"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "node",
+    "pino",
+    "express",
+    "middleware"
+  ],
+  "author": "Rohan Pradev",
   "volta": {
     "node": "20.11.0",
     "pnpm": "8.14.1"
   },
+  "repository": {
+    "url": "https://github.com/rohanpradev/jobber-shared"
+  },
   "devDependencies": {
+    "@changesets/cli": "^2.27.1",
     "@microsoft/api-documenter": "^7.23.17",
     "@microsoft/api-extractor": "^7.39.1",
     "@types/express": "^4.17.21",
