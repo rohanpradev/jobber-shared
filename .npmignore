@@ -12,3 +12,4 @@ api-extractor.json
 .gitignore
 pnpm-lock.yaml
 tsconfig.json
+dist/tsdoc-metadata.json

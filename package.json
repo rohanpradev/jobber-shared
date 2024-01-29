@@ -1,6 +1,6 @@
 {
-  "name": "jobber-shared",
-  "version": "1.0.2",
+  "name": "@rohanpradev/jobber-shared",
+  "version": "0.0.1",
   "license": "MIT",
   "description": "Helpers library for Jobber app",
   "main": "./dist/index.js",
@@ -33,7 +33,7 @@
   },
   "exports": {
     ".": {
-      "import": "./src/index.js",
+      "import": "./src/index.mjs",
       "require": "./src/index.js"
     }
   },
