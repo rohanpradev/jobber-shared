@@ -1,5 +1,6 @@
 # Jobber Shared
 [![Publish Package to npmjs](https://github.com/rohanpradev/jobber-shared/actions/workflows/publish.yml/badge.svg)](https://github.com/rohanpradev/jobber-shared/actions/workflows/publish.yml)
+[![CI](https://github.com/rohanpradev/jobber-shared/actions/workflows/main.yml/badge.svg)](https://github.com/rohanpradev/jobber-shared/actions/workflows/main.yml)
 
 **Elevate your Node.js projects with this powerful shared package, empowering you with efficient file uploads to Cloudinary, robust error handling for Express applications, and streamlined logging through Pino.**
 
