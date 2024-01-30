@@ -15,7 +15,7 @@
 1. **Add the package using pnpm:**
 
    ```bash
-   pnpm add <package-name>
+   pnpm add @rohanpradev/jobber-shared
    ```
 
 2. **View documentation using pnpm:**
@@ -39,7 +39,7 @@ This package is licensed under the MIT License.
 
 ## Additional Notes
 
-- **Node.js Version:** This package requires Node.js version X.Y.Z or higher.
+- **Node.js Version:** This package requires Node.js version 20.x.x or higher.
 - **Dependency Management:** This package uses pnpm for dependency management.
 - **Documentation:** More detailed documentation and examples for each feature are available at [Link to documentation].
 
