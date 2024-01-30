@@ -1,73 +1,20 @@
-# name: Publish
-# on:
-#   push:
-#     branches:
-#       - "main"
-
-# concurrency: ${{ github.workflow }}-${{ github.ref }}
-
-# jobs:
-#   publish:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@v3
-#       - uses: pnpm/action-setup@v2
-#         with:
-#           version: 8
-#       - uses: actions/setup-node@v3
-#         with:
-#           node-version: 18.x
-#           cache: "pnpm"
-#       - run: pnpm install --frozen-lockfile
-
-#       - name: Create Release Pull Request or Publish
-#         id: changesets
-#         uses: changesets/action@v1
-#         with:
-#           publish: pnpm run release
-#         env:
-#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-#       - name: Publish packqge to npm
-#       - run: pnpm publish --registry=https://registry.npmjs.org/
-#         env:
-#           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-
-name: Publish
-
+name: Publish Package to npmjs
 on:
-  push:
-    branches:
-      - "main"
-
-concurrency: ${{ github.workflow }}-${{ github.ref }}
-
+  release:
+    types: [published]
 jobs:
-  publish:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v2
         with:
           version: 8
+      # Setup .npmrc file to publish to npm
       - uses: actions/setup-node@v3
         with:
-          node-version: 20.x
-          cache: "pnpm"
-      - run: pnpm install --frozen-lockfile
-
-      - name: Create Release Pull Request or Publish
-        id: changesets
-        uses: changesets/action@v1
-        with:
-          publish: pnpm run release
-          registry-url: 'https://registry.npmjs.org/'
+          node-version: "20.x"
+          registry-url: "https://registry.npmjs.org"
+      - run: pnpm release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}  # Use correct token variable for npm
-
-      - name: Publish package to npm
-        run: pnpm publish --registry=https://registry.npmjs.org/ --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}  # Use correct token variable for npm
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
