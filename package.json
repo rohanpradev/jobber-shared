@@ -1,6 +1,6 @@
 {
   "name": "@rohanpradev/jobber-shared",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "Helpers library for Jobber app",
   "main": "./dist/index.js",

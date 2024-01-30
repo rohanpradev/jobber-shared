@@ -7,6 +7,7 @@
 import { Field } from '@elastic/elasticsearch/lib/api/types';
 import mongoose from 'mongoose';
 import { ObjectId } from 'mongoose';
+import pino from 'pino';
 import { QueryDslRangeQuery } from '@elastic/elasticsearch/lib/api/types';
 import { RequestHandler } from 'express';
 import { SearchHit } from '@elastic/elasticsearch/lib/api/types';
@@ -1156,6 +1157,9 @@ export class NotFoundError extends CustomError {
     // (undocumented)
     statusCode: StatusCodes;
 }
+
+// @public (undocumented)
+export const pinoLogger: (elasticsearchNode: string, name: string, level: string) => pino.Logger;
 
 // @public (undocumented)
 export type SellerType = string | string[] | number | IRatingCategories | Date | IExperience | IExperience[] | IEducation | IEducation[] | ICertificate | ICertificate[] | ILanguage | ILanguage[] | unknown | undefined;

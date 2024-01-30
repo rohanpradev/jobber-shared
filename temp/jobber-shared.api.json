@@ -13996,6 +13996,34 @@
           "implementsTokenRanges": []
         },
         {
+          "kind": "Variable",
+          "canonicalReference": "@rohanpradev/jobber-shared!pinoLogger:var",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "pinoLogger: "
+            },
+            {
+              "kind": "Content",
+              "text": "(elasticsearchNode: string, name: string, level: string) => "
+            },
+            {
+              "kind": "Reference",
+              "text": "pino.Logger",
+              "canonicalReference": "pino!pino.Logger:type"
+            }
+          ],
+          "fileUrlPath": "dist/index.d.ts",
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "pinoLogger",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 3
+          }
+        },
+        {
           "kind": "TypeAlias",
           "canonicalReference": "@rohanpradev/jobber-shared!SellerType:type",
           "docComment": "",
