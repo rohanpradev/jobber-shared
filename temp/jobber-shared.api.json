@@ -14006,7 +14006,7 @@
             },
             {
               "kind": "Content",
-              "text": "(elasticsearchNode: string, name: string, level: string) => "
+              "text": "(elasticsearchNode: string, name: string, level: string, index?: string, esVersion?: 6 | 7 | 8) => "
             },
             {
               "kind": "Reference",

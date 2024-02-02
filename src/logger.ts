@@ -5,21 +5,22 @@ import ecsFormat from '@elastic/ecs-pino-format';
 export const pinoLogger = (
   elasticsearchNode: string,
   name: string,
-  level: string
+  level: string,
+  index: string = 'an-index',
+  esVersion: 6 | 7 | 8 = 8
 ): pino.Logger => {
-  
   const streamToElastic = pinoElastic({
     node: elasticsearchNode,
-    esVersion: 7,
-    flushBytes: 10,
-    index: 'an-index',
+    esVersion,
+    flushBytes: 1000,
+    index,
   });
 
   const logger = pino(
     {
       name,
       level,
-      ...ecsFormat,
+      ...ecsFormat(),
     },
     pino.multistream([{ stream: process.stdout }, { stream: streamToElastic }])
   );
