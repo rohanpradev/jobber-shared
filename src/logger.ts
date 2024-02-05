@@ -7,7 +7,7 @@ export const pinoLogger = (
   name: string,
   level: string,
   index: string = 'an-index',
-  esVersion: 6 | 7 | 8 = 8
+  esVersion: number = 8.11
 ): pino.Logger => {
   const streamToElastic = pinoElastic({
     node: elasticsearchNode,
@@ -24,6 +24,12 @@ export const pinoLogger = (
     },
     pino.multistream([{ stream: process.stdout }, { stream: streamToElastic }])
   );
+
+  console.log('logger options', {
+    name,
+    level,
+    ...ecsFormat(),
+  });
 
   return logger;
 };

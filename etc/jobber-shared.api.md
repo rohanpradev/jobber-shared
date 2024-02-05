@@ -1159,7 +1159,7 @@ export class NotFoundError extends CustomError {
 }
 
 // @public (undocumented)
-export const pinoLogger: (elasticsearchNode: string, name: string, level: string, index?: string, esVersion?: 6 | 7 | 8) => pino.Logger;
+export const pinoLogger: (elasticsearchNode: string, name: string, level: string, index?: string, esVersion?: number) => pino.Logger;
 
 // @public (undocumented)
 export type SellerType = string | string[] | number | IRatingCategories | Date | IExperience | IExperience[] | IEducation | IEducation[] | ICertificate | ICertificate[] | ILanguage | ILanguage[] | unknown | undefined;

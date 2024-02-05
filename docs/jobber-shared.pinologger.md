@@ -7,5 +7,5 @@
 **Signature:**
 
 ```typescript
-pinoLogger: (elasticsearchNode: string, name: string, level: string, index?: string, esVersion?: 6 | 7 | 8) => pino.Logger
+pinoLogger: (elasticsearchNode: string, name: string, level: string, index?: string, esVersion?: number) => pino.Logger
 ```
