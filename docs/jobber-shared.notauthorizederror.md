@@ -4,6 +4,8 @@
 
 ## NotAuthorizedError class
 
+Extends CustomError to represent a 401 Unauthorized error. Sets statusCode to 401 and status to 'error'.
+
 **Signature:**
 
 ```typescript

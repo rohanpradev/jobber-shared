@@ -4,6 +4,8 @@
 
 ## BadRequestError class
 
+Extends CustomError to represent a 400 Bad Request error. Sets statusCode to 400 and status to 'error'.
+
 **Signature:**
 
 ```typescript

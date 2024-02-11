@@ -175,7 +175,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@rohanpradev/jobber-shared!BadRequestError:class",
-          "docComment": "",
+          "docComment": "/**\n * Extends CustomError to represent a 400 Bad Request error. Sets statusCode to 400 and status to 'error'.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -316,7 +316,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@rohanpradev/jobber-shared!CustomError:class",
-          "docComment": "",
+          "docComment": "/**\n * Abstract base class for custom application errors. Extends the native Error class. Defines abstract statusCode and status properties. Constructor accepts error message and origin. Implements serializeError() to return IError interface. Meant to be extended by concrete error classes.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -518,7 +518,7 @@
         {
           "kind": "Interface",
           "canonicalReference": "@rohanpradev/jobber-shared!ErrornoException:interface",
-          "docComment": "",
+          "docComment": "/**\n * Interface for error objects with errno, code, path, syscall, and stack properties.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -671,7 +671,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@rohanpradev/jobber-shared!FileTooLargeError:class",
-          "docComment": "",
+          "docComment": "/**\n * Extends CustomError to represent a 413 Payload Too Large error. Sets statusCode to 413 and status to 'error'.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -812,7 +812,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@rohanpradev/jobber-shared!firstLetterUppercase:function(1)",
-          "docComment": "/**\n * @function firstLetterUppercase This function capitalizes the first letter of the given string\n *\n * @param str - the input string\n *\n * @returns \n */\n",
+          "docComment": "/**\n * Capitalizes the first letter of each word in the input string.\n *\n * @param str - The input string to capitalize.\n *\n * @returns The capitalized string.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -4882,7 +4882,7 @@
         {
           "kind": "Interface",
           "canonicalReference": "@rohanpradev/jobber-shared!IError:interface",
-          "docComment": "",
+          "docComment": "/**\n * Interface defining the shape of error objects. Contains properties for the error message, status code, status text, and origin.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -5008,7 +5008,7 @@
         {
           "kind": "Interface",
           "canonicalReference": "@rohanpradev/jobber-shared!IErrorResponse:interface",
-          "docComment": "",
+          "docComment": "/**\n * Interface for error response objects. Defines the shape of objects returned in error responses.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -13671,7 +13671,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@rohanpradev/jobber-shared!lowerCase:function(1)",
-          "docComment": "/**\n * @function lowerCase This function return a new string which is the lowercase version of the input string\n *\n * @param str - the input string\n *\n * @returns \n */\n",
+          "docComment": "/**\n * Converts the given string to lowercase.\n *\n * @param str - The string to convert to lowercase.\n *\n * @returns The lowercase version of the input string.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -13716,7 +13716,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@rohanpradev/jobber-shared!NotAuthorizedError:class",
-          "docComment": "",
+          "docComment": "/**\n * Extends CustomError to represent a 401 Unauthorized error. Sets statusCode to 401 and status to 'error'.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -13857,7 +13857,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@rohanpradev/jobber-shared!NotFoundError:class",
-          "docComment": "",
+          "docComment": "/**\n * Extends CustomError to represent a 404 Not Found error. Sets statusCode to 404 and status to 'error'.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -13998,7 +13998,7 @@
         {
           "kind": "Variable",
           "canonicalReference": "@rohanpradev/jobber-shared!pinoLogger:var",
-          "docComment": "/**\n * @function pinoLogger This function return a logger We use pino for logging\n *\n * @param elasticsearchNode - the url for elastic search\n *\n * @param name - The name of the logger\n *\n * @param level - the level of the logger such as debug, info etc\n *\n * @param index - The elastic index\n *\n * @param esVersion - Elastic search version defaults to the latest\n *\n * @returns {pino.Logger} returns a logger\n */\n",
+          "docComment": "/**\n * Creates a Pino logger instance with Elasticsearch streaming.\n *\n * @param elasticsearchNode - The Elasticsearch node URL to stream logs to.\n *\n * @param name - The name for the logger.\n *\n * @param level - The log level.\n *\n * @param index - The Elasticsearch index name.\n *\n * @param esVersion - The Elasticsearch version.\n *\n * @returns The configured Pino logger instance.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -14142,7 +14142,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@rohanpradev/jobber-shared!ServerError:class",
-          "docComment": "",
+          "docComment": "/**\n * Extends CustomError to represent a 500 Internal Server Error. Sets statusCode to 500 and status to 'error'.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -14283,7 +14283,7 @@
         {
           "kind": "Variable",
           "canonicalReference": "@rohanpradev/jobber-shared!uploadFile:var",
-          "docComment": "/**\n * @function uploadFile this method is used to upload a file into cludinary  @link https://cloudinary.com/\n *\n * @param file - \n *\n * @param param1 - \n *\n * @returns \n */\n",
+          "docComment": "/**\n * Uploads a file to Cloudinary.\n *\n * @param file - The file path to upload.\n *\n * @param options - The upload options.\n *\n * @returns A promise that resolves to the upload response.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -14342,7 +14342,7 @@
         {
           "kind": "Variable",
           "canonicalReference": "@rohanpradev/jobber-shared!upperCase:var",
-          "docComment": "/**\n * @function upperCase This function return a new string which is the uppercase version of the input string\n *\n * @param str - the input string\n *\n * @returns \n */\n",
+          "docComment": "/**\n * /** Capitalizes the first letter of each word in the input string\n *\n * @param str - The input string to capitalize\n *\n * @returns The capitalized string\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -14365,7 +14365,7 @@
         {
           "kind": "Variable",
           "canonicalReference": "@rohanpradev/jobber-shared!verifyGatewayRequest:var",
-          "docComment": "/**\n * @function verifyGatewayRequest This middleware check if the request is valid and has a gateway token, if not it return an error\n *\n * @param req - the express request\n *\n * @param _res - the express response\n *\n * @param _next - the express nextfunction\n */\n",
+          "docComment": "/**\n * Middleware that verifies the gateway token in the request. Throws an error if the token is invalid or missing. Checks that the token payload ID is in the allowed tokens list.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",

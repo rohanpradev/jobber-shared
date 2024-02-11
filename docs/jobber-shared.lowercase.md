@@ -4,7 +4,7 @@
 
 ## lowerCase() function
 
- lowerCase This function return a new string which is the lowercase version of the input string
+Converts the given string to lowercase.
 
 **Signature:**
 
@@ -16,10 +16,11 @@ declare function lowerCase(str: string): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  str | string | the input string |
+|  str | string | The string to convert to lowercase. |
 
 **Returns:**
 
 string
 
+The lowercase version of the input string.
 

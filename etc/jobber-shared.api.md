@@ -16,7 +16,7 @@ import { UploadApiErrorResponse } from 'cloudinary';
 import { UploadApiOptions } from 'cloudinary';
 import { UploadApiResponse } from 'cloudinary';
 
-// @public (undocumented)
+// @public
 export class BadRequestError extends CustomError {
     constructor(message: string, comingFrom: string);
     // (undocumented)
@@ -25,7 +25,7 @@ export class BadRequestError extends CustomError {
     statusCode: StatusCodes;
 }
 
-// @public (undocumented)
+// @public
 export abstract class CustomError extends Error {
     constructor(message: string, comingFrom: string);
     // (undocumented)
@@ -38,7 +38,7 @@ export abstract class CustomError extends Error {
     abstract statusCode: number;
 }
 
-// @public (undocumented)
+// @public
 export interface ErrornoException {
     // (undocumented)
     code?: string;
@@ -52,7 +52,7 @@ export interface ErrornoException {
     syscall?: string;
 }
 
-// @public (undocumented)
+// @public
 export class FileTooLargeError extends CustomError {
     constructor(message: string, comingFrom: string);
     // (undocumented)
@@ -399,7 +399,7 @@ export interface IEmailMessageDetails {
     verifyLink?: string;
 }
 
-// @public (undocumented)
+// @public
 export interface IError {
     // (undocumented)
     comingFrom: string;
@@ -411,7 +411,7 @@ export interface IError {
     statusCode: number;
 }
 
-// @public (undocumented)
+// @public
 export interface IErrorResponse {
     // (undocumented)
     comingFrom: string;
@@ -1140,7 +1140,7 @@ export interface ITerm {
 // @public
 export function lowerCase(str: string): string;
 
-// @public (undocumented)
+// @public
 export class NotAuthorizedError extends CustomError {
     constructor(message: string, comingFrom: string);
     // (undocumented)
@@ -1149,7 +1149,7 @@ export class NotAuthorizedError extends CustomError {
     statusCode: StatusCodes;
 }
 
-// @public (undocumented)
+// @public
 export class NotFoundError extends CustomError {
     constructor(message: string, comingFrom: string);
     // (undocumented)
@@ -1164,7 +1164,7 @@ export const pinoLogger: (elasticsearchNode: string, name: string, level: string
 // @public (undocumented)
 export type SellerType = string | string[] | number | IRatingCategories | Date | IExperience | IExperience[] | IEducation | IEducation[] | ICertificate | ICertificate[] | ILanguage | ILanguage[] | unknown | undefined;
 
-// @public (undocumented)
+// @public
 export class ServerError extends CustomError {
     constructor(message: string, comingFrom: string);
     // (undocumented)

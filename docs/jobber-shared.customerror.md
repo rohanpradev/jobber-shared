@@ -4,6 +4,8 @@
 
 ## CustomError class
 
+Abstract base class for custom application errors. Extends the native Error class. Defines abstract statusCode and status properties. Constructor accepts error message and origin. Implements serializeError() to return IError interface. Meant to be extended by concrete error classes.
+
 **Signature:**
 
 ```typescript

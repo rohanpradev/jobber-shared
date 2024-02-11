@@ -4,6 +4,8 @@
 
 ## FileTooLargeError class
 
+Extends CustomError to represent a 413 Payload Too Large error. Sets statusCode to 413 and status to 'error'.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## ServerError class
 
+Extends CustomError to represent a 500 Internal Server Error. Sets statusCode to 500 and status to 'error'.
+
 **Signature:**
 
 ```typescript

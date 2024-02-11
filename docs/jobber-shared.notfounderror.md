@@ -4,6 +4,8 @@
 
 ## NotFoundError class
 
+Extends CustomError to represent a 404 Not Found error. Sets statusCode to 404 and status to 'error'.
+
 **Signature:**
 
 ```typescript

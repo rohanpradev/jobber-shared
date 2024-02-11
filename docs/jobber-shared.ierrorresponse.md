@@ -4,6 +4,8 @@
 
 ## IErrorResponse interface
 
+Interface for error response objects. Defines the shape of objects returned in error responses.
+
 **Signature:**
 
 ```typescript

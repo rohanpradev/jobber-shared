@@ -4,7 +4,7 @@
 
 ## pinoLogger variable
 
- pinoLogger This function return a logger We use pino for logging
+Creates a Pino logger instance with Elasticsearch streaming.
 
 **Signature:**
 

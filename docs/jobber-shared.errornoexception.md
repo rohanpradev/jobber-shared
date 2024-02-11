@@ -4,6 +4,8 @@
 
 ## ErrornoException interface
 
+Interface for error objects with errno, code, path, syscall, and stack properties.
+
 **Signature:**
 
 ```typescript

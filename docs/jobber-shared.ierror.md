@@ -4,6 +4,8 @@
 
 ## IError interface
 
+Interface defining the shape of error objects. Contains properties for the error message, status code, status text, and origin.
+
 **Signature:**
 
 ```typescript

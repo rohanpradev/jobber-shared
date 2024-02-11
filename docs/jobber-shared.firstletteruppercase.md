@@ -4,7 +4,7 @@
 
 ## firstLetterUppercase() function
 
- firstLetterUppercase This function capitalizes the first letter of the given string
+Capitalizes the first letter of each word in the input string.
 
 **Signature:**
 
@@ -16,10 +16,11 @@ declare function firstLetterUppercase(str: string): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  str | string | the input string |
+|  str | string | The input string to capitalize. |
 
 **Returns:**
 
 string
 
+The capitalized string.
 

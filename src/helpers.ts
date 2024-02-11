@@ -1,10 +1,9 @@
 /**
- * @function firstLetterUppercase
- * This function capitalizes the first letter of the given string
- * @param {string} str the input string
- * @returns
+ * Capitalizes the first letter of each word in the input string.
+ *
+ * @param str - The input string to capitalize.
+ * @returns The capitalized string.
  */
-
 export function firstLetterUppercase(str: string): string {
   const valueString = str.toLowerCase();
   return valueString
@@ -17,22 +16,22 @@ export function firstLetterUppercase(str: string): string {
 }
 
 /**
- * @function lowerCase
- * This function return a new string which is the lowercase version of the input string
- * @param {string} str the input string
- * @returns
+ * Converts the given string to lowercase.
+ *
+ * @param str - The string to convert to lowercase.
+ * @returns The lowercase version of the input string.
  */
-
 export function lowerCase(str: string): string {
   return str.toLowerCase();
 }
 
 /**
- * @function upperCase
- * This function return a new string which is the uppercase version of the input string
- * @param {string} str the input string
- * @returns
- */
+ /**
+  * Capitalizes the first letter of each word in the input string
+  * 
+  * @param str - The input string to capitalize
+  * @returns The capitalized string
+  */
 
 export const upperCase = (str: string): string => {
   return str ? str.toUpperCase() : str;

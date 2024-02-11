@@ -4,7 +4,7 @@
 
 ## upperCase variable
 
- upperCase This function return a new string which is the uppercase version of the input string
+/\*\* Capitalizes the first letter of each word in the input string
 
 **Signature:**
 

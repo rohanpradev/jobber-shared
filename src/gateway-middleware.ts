@@ -2,6 +2,9 @@ import { verify } from 'jsonwebtoken';
 import type { RequestHandler } from 'express';
 import { CustomError, NotAuthorizedError } from './error-handler';
 
+/**
+ * An array of valid JWT token names used in the app.
+ */
 const tokens = [
   'auth',
   'seller',
@@ -14,13 +17,10 @@ const tokens = [
 ];
 
 /**
- * @function verifyGatewayRequest
- * This middleware check if the request is valid and has a gateway token, if not it return an error
- * @param req the express request
- * @param _res the express response
- * @param _next the express nextfunction
+ * Middleware that verifies the gateway token in the request.
+ * Throws an error if the token is invalid or missing.
+ * Checks that the token payload ID is in the allowed tokens list.
  */
-
 export const verifyGatewayRequest: RequestHandler = (req, _res, _next) => {
   const token = req.get('gatewayToken');
   if (!token)

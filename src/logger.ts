@@ -3,17 +3,15 @@ import pinoElastic from 'pino-elasticsearch';
 import ecsFormat from '@elastic/ecs-pino-format';
 
 /**
- * @function pinoLogger
- * This function return a logger
- * We use pino for logging
- * @param elasticsearchNode the url for elastic search
- * @param name The name of the logger
- * @param level the level of the logger such as debug, info etc
- * @param index The elastic index
- * @param esVersion Elastic search version defaults to the latest
- * @returns {pino.Logger} returns a logger 
+ * Creates a Pino logger instance with Elasticsearch streaming.
+ *
+ * @param elasticsearchNode - The Elasticsearch node URL to stream logs to.
+ * @param name - The name for the logger.
+ * @param level - The log level.
+ * @param index - The Elasticsearch index name.
+ * @param esVersion - The Elasticsearch version.
+ * @returns The configured Pino logger instance.
  */
-
 export const pinoLogger = (
   elasticsearchNode: string,
   name: string,

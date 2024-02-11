@@ -14,12 +14,11 @@ type CloudinaryPromise = (
 const cloudinaryUpload: CloudinaryPromise = promisify(v2.uploader.upload);
 
 /**
- * @function uploadFile
- * this method is used to upload a file into cludinary
- * @link https://cloudinary.com/
- * @param file
- * @param param1
- * @returns
+ * Uploads a file to Cloudinary.
+ *
+ * @param file - The file path to upload.
+ * @param options - The upload options.
+ * @returns A promise that resolves to the upload response.
  */
 export const uploadFile = (
   file: string,

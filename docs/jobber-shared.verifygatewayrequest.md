@@ -4,7 +4,7 @@
 
 ## verifyGatewayRequest variable
 
- verifyGatewayRequest This middleware check if the request is valid and has a gateway token, if not it return an error
+Middleware that verifies the gateway token in the request. Throws an error if the token is invalid or missing. Checks that the token payload ID is in the allowed tokens list.
 
 **Signature:**
 

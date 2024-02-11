@@ -8,32 +8,32 @@
 
 |  Class | Description |
 |  --- | --- |
-|  [BadRequestError](./jobber-shared.badrequesterror.md) |  |
-|  [FileTooLargeError](./jobber-shared.filetoolargeerror.md) |  |
-|  [NotAuthorizedError](./jobber-shared.notauthorizederror.md) |  |
-|  [NotFoundError](./jobber-shared.notfounderror.md) |  |
-|  [ServerError](./jobber-shared.servererror.md) |  |
+|  [BadRequestError](./jobber-shared.badrequesterror.md) | Extends CustomError to represent a 400 Bad Request error. Sets statusCode to 400 and status to 'error'. |
+|  [FileTooLargeError](./jobber-shared.filetoolargeerror.md) | Extends CustomError to represent a 413 Payload Too Large error. Sets statusCode to 413 and status to 'error'. |
+|  [NotAuthorizedError](./jobber-shared.notauthorizederror.md) | Extends CustomError to represent a 401 Unauthorized error. Sets statusCode to 401 and status to 'error'. |
+|  [NotFoundError](./jobber-shared.notfounderror.md) | Extends CustomError to represent a 404 Not Found error. Sets statusCode to 404 and status to 'error'. |
+|  [ServerError](./jobber-shared.servererror.md) | Extends CustomError to represent a 500 Internal Server Error. Sets statusCode to 500 and status to 'error'. |
 
 ## Abstract Classes
 
 |  Abstract Class | Description |
 |  --- | --- |
-|  [CustomError](./jobber-shared.customerror.md) |  |
+|  [CustomError](./jobber-shared.customerror.md) | Abstract base class for custom application errors. Extends the native Error class. Defines abstract statusCode and status properties. Constructor accepts error message and origin. Implements serializeError() to return IError interface. Meant to be extended by concrete error classes. |
 
 ## Functions
 
 |  Function | Description |
 |  --- | --- |
-|  [firstLetterUppercase(str)](./jobber-shared.firstletteruppercase.md) |  firstLetterUppercase This function capitalizes the first letter of the given string |
+|  [firstLetterUppercase(str)](./jobber-shared.firstletteruppercase.md) | Capitalizes the first letter of each word in the input string. |
 |  [isDataURL(value)](./jobber-shared.isdataurl.md) |  |
 |  [isEmail(email)](./jobber-shared.isemail.md) |  isEmail a function which can be used to determine if an email is valid or not |
-|  [lowerCase(str)](./jobber-shared.lowercase.md) |  lowerCase This function return a new string which is the lowercase version of the input string |
+|  [lowerCase(str)](./jobber-shared.lowercase.md) | Converts the given string to lowercase. |
 
 ## Interfaces
 
 |  Interface | Description |
 |  --- | --- |
-|  [ErrornoException](./jobber-shared.errornoexception.md) |  |
+|  [ErrornoException](./jobber-shared.errornoexception.md) | Interface for error objects with errno, code, path, syscall, and stack properties. |
 |  [IAuth](./jobber-shared.iauth.md) |  |
 |  [IAuthBuyerMessageDetails](./jobber-shared.iauthbuyermessagedetails.md) |  |
 |  [IAuthDocument](./jobber-shared.iauthdocument.md) |  |
@@ -52,8 +52,8 @@
 |  [IEducation](./jobber-shared.ieducation.md) |  |
 |  [IEmailLocals](./jobber-shared.iemaillocals.md) |  |
 |  [IEmailMessageDetails](./jobber-shared.iemailmessagedetails.md) |  |
-|  [IError](./jobber-shared.ierror.md) |  |
-|  [IErrorResponse](./jobber-shared.ierrorresponse.md) |  |
+|  [IError](./jobber-shared.ierror.md) | Interface defining the shape of error objects. Contains properties for the error message, status code, status text, and origin. |
+|  [IErrorResponse](./jobber-shared.ierrorresponse.md) | Interface for error response objects. Defines the shape of objects returned in error responses. |
 |  [IExperience](./jobber-shared.iexperience.md) |  |
 |  [IExtendedDelivery](./jobber-shared.iextendeddelivery.md) |  |
 |  [IForgotPassword](./jobber-shared.iforgotpassword.md) |  |
@@ -98,10 +98,10 @@
 
 |  Variable | Description |
 |  --- | --- |
-|  [pinoLogger](./jobber-shared.pinologger.md) |  pinoLogger This function return a logger We use pino for logging |
-|  [uploadFile](./jobber-shared.uploadfile.md) |  uploadFile this method is used to upload a file into cludinary  https://cloudinary.com/ |
-|  [upperCase](./jobber-shared.uppercase.md) |  upperCase This function return a new string which is the uppercase version of the input string |
-|  [verifyGatewayRequest](./jobber-shared.verifygatewayrequest.md) |  verifyGatewayRequest This middleware check if the request is valid and has a gateway token, if not it return an error |
+|  [pinoLogger](./jobber-shared.pinologger.md) | Creates a Pino logger instance with Elasticsearch streaming. |
+|  [uploadFile](./jobber-shared.uploadfile.md) | Uploads a file to Cloudinary. |
+|  [upperCase](./jobber-shared.uppercase.md) | /\*\* Capitalizes the first letter of each word in the input string |
+|  [verifyGatewayRequest](./jobber-shared.verifygatewayrequest.md) | Middleware that verifies the gateway token in the request. Throws an error if the token is invalid or missing. Checks that the token payload ID is in the allowed tokens list. |
 
 ## Type Aliases
 
