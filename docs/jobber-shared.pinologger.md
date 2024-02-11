@@ -4,6 +4,8 @@
 
 ## pinoLogger variable
 
+ pinoLogger This function return a logger We use pino for logging
+
 **Signature:**
 
 ```typescript

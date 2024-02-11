@@ -4,6 +4,8 @@
 
 ## verifyGatewayRequest variable
 
+ verifyGatewayRequest This middleware check if the request is valid and has a gateway token, if not it return an error
+
 **Signature:**
 
 ```typescript

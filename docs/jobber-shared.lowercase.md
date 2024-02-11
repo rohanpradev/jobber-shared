@@ -4,6 +4,8 @@
 
 ## lowerCase() function
 
+ lowerCase This function return a new string which is the lowercase version of the input string
+
 **Signature:**
 
 ```typescript
@@ -14,9 +16,10 @@ declare function lowerCase(str: string): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  str | string |  |
+|  str | string | the input string |
 
 **Returns:**
 
 string
+
 

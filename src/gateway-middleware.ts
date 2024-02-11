@@ -1,5 +1,5 @@
 import { verify } from 'jsonwebtoken';
-import { RequestHandler } from 'express';
+import type { RequestHandler } from 'express';
 import { CustomError, NotAuthorizedError } from './error-handler';
 
 const tokens = [
@@ -13,7 +13,15 @@ const tokens = [
   'review',
 ];
 
-export const verifyGatewayRequest: RequestHandler = (req, res, next) => {
+/**
+ * @function verifyGatewayRequest
+ * This middleware check if the request is valid and has a gateway token, if not it return an error
+ * @param req the express request
+ * @param _res the express response
+ * @param _next the express nextfunction
+ */
+
+export const verifyGatewayRequest: RequestHandler = (req, _res, _next) => {
   const token = req.get('gatewayToken');
   if (!token)
     throw new NotAuthorizedError(

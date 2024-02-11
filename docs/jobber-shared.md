@@ -24,10 +24,10 @@
 
 |  Function | Description |
 |  --- | --- |
-|  [firstLetterUppercase(str)](./jobber-shared.firstletteruppercase.md) |  |
+|  [firstLetterUppercase(str)](./jobber-shared.firstletteruppercase.md) |  firstLetterUppercase This function capitalizes the first letter of the given string |
 |  [isDataURL(value)](./jobber-shared.isdataurl.md) |  |
-|  [isEmail(email)](./jobber-shared.isemail.md) |  |
-|  [lowerCase(str)](./jobber-shared.lowercase.md) |  |
+|  [isEmail(email)](./jobber-shared.isemail.md) |  isEmail a function which can be used to determine if an email is valid or not |
+|  [lowerCase(str)](./jobber-shared.lowercase.md) |  lowerCase This function return a new string which is the lowercase version of the input string |
 
 ## Interfaces
 
@@ -98,10 +98,10 @@
 
 |  Variable | Description |
 |  --- | --- |
-|  [pinoLogger](./jobber-shared.pinologger.md) |  |
-|  [uploadFile](./jobber-shared.uploadfile.md) |  |
-|  [upperCase](./jobber-shared.uppercase.md) |  |
-|  [verifyGatewayRequest](./jobber-shared.verifygatewayrequest.md) |  |
+|  [pinoLogger](./jobber-shared.pinologger.md) |  pinoLogger This function return a logger We use pino for logging |
+|  [uploadFile](./jobber-shared.uploadfile.md) |  uploadFile this method is used to upload a file into cludinary  https://cloudinary.com/ |
+|  [upperCase](./jobber-shared.uppercase.md) |  upperCase This function return a new string which is the uppercase version of the input string |
+|  [verifyGatewayRequest](./jobber-shared.verifygatewayrequest.md) |  verifyGatewayRequest This middleware check if the request is valid and has a gateway token, if not it return an error |
 
 ## Type Aliases
 

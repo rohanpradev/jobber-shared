@@ -4,6 +4,8 @@
 
 ## isEmail() function
 
+ isEmail a function which can be used to determine if an email is valid or not
+
 **Signature:**
 
 ```typescript
@@ -14,9 +16,11 @@ declare function isEmail(email: string): boolean;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  email | string |  |
+|  email | string | the input email to be checked |
 
 **Returns:**
 
 boolean
+
+true if imput provided is a valid email or else false
 

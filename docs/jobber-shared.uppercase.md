@@ -4,6 +4,8 @@
 
 ## upperCase variable
 
+ upperCase This function return a new string which is the uppercase version of the input string
+
 **Signature:**
 
 ```typescript

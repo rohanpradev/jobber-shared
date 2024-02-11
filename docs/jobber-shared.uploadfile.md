@@ -4,6 +4,8 @@
 
 ## uploadFile variable
 
+ uploadFile this method is used to upload a file into cludinary  https://cloudinary.com/
+
 **Signature:**
 
 ```typescript

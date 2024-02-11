@@ -812,7 +812,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@rohanpradev/jobber-shared!firstLetterUppercase:function(1)",
-          "docComment": "",
+          "docComment": "/**\n * @function firstLetterUppercase This function capitalizes the first letter of the given string\n *\n * @param str - the input string\n *\n * @returns \n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -13268,7 +13268,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@rohanpradev/jobber-shared!isEmail:function(1)",
-          "docComment": "",
+          "docComment": "/**\n * @function isEmail a function which can be used to determine if an email is valid or not\n *\n * @param email - the input email to be checked\n *\n * @returns true if imput provided is a valid email or else false\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -13671,7 +13671,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@rohanpradev/jobber-shared!lowerCase:function(1)",
-          "docComment": "",
+          "docComment": "/**\n * @function lowerCase This function return a new string which is the lowercase version of the input string\n *\n * @param str - the input string\n *\n * @returns \n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -13998,7 +13998,7 @@
         {
           "kind": "Variable",
           "canonicalReference": "@rohanpradev/jobber-shared!pinoLogger:var",
-          "docComment": "",
+          "docComment": "/**\n * @function pinoLogger This function return a logger We use pino for logging\n *\n * @param elasticsearchNode - the url for elastic search\n *\n * @param name - The name of the logger\n *\n * @param level - the level of the logger such as debug, info etc\n *\n * @param index - The elastic index\n *\n * @param esVersion - Elastic search version defaults to the latest\n *\n * @returns {pino.Logger} returns a logger\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -14283,7 +14283,7 @@
         {
           "kind": "Variable",
           "canonicalReference": "@rohanpradev/jobber-shared!uploadFile:var",
-          "docComment": "",
+          "docComment": "/**\n * @function uploadFile this method is used to upload a file into cludinary  @link https://cloudinary.com/\n *\n * @param file - \n *\n * @param param1 - \n *\n * @returns \n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -14342,7 +14342,7 @@
         {
           "kind": "Variable",
           "canonicalReference": "@rohanpradev/jobber-shared!upperCase:var",
-          "docComment": "",
+          "docComment": "/**\n * @function upperCase This function return a new string which is the uppercase version of the input string\n *\n * @param str - the input string\n *\n * @returns \n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -14365,7 +14365,7 @@
         {
           "kind": "Variable",
           "canonicalReference": "@rohanpradev/jobber-shared!verifyGatewayRequest:var",
-          "docComment": "",
+          "docComment": "/**\n * @function verifyGatewayRequest This middleware check if the request is valid and has a gateway token, if not it return an error\n *\n * @param req - the express request\n *\n * @param _res - the express response\n *\n * @param _next - the express nextfunction\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",

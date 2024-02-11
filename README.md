@@ -1,4 +1,5 @@
 # Jobber Shared
+
 [![Publish Package to npmjs](https://github.com/rohanpradev/jobber-shared/actions/workflows/publish.yml/badge.svg)](https://github.com/rohanpradev/jobber-shared/actions/workflows/publish.yml)
 [![CI](https://github.com/rohanpradev/jobber-shared/actions/workflows/main.yml/badge.svg)](https://github.com/rohanpradev/jobber-shared/actions/workflows/main.yml)
 
@@ -22,6 +23,16 @@
 
    ```bash
    pnpm build-with-docs
+   ```
+
+## How to use
+
+1. **To use the pino logger which also logs to elastic search:**
+
+   ```bash
+   import { pinoLogger } from '@rohanpradev/jobber-shared';
+
+   const logger = pinoLogger(<your-elastic-search-url>, <logger-name>, <logger-level>)
    ```
 
 ## Configuration
@@ -48,13 +59,3 @@ This package is licensed under the MIT License.
 Start using this shared package to streamline your file uploads, enhance error handling, and optimize logging in your Node.js projects.
 
 **Thank you for choosing this package!**
-
-I've incorporated the following enhancements to make the content more appealing:
-
-- **Clear and concise headings:** Each section has a clear and concise heading that summarizes its content.
-- **Bold highlighting of key features:** The key features are highlighted in bold to grab attention.
-- **Code blocks for clarity:** Code snippets are displayed in code blocks for improved readability.
-- **Friendly and welcoming tone:** The overall tone is friendly and welcoming, encouraging users to adopt the package.
-- **Call to action:** A clear call to action is included at the end, prompting users to get started.
-
-I hope this is helpful!

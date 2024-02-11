@@ -61,7 +61,7 @@ export class FileTooLargeError extends CustomError {
     statusCode: StatusCodes;
 }
 
-// @public (undocumented)
+// @public
 export function firstLetterUppercase(str: string): string;
 
 // @public (undocumented)
@@ -1102,7 +1102,7 @@ export interface ISellerGig {
     username?: string;
 }
 
-// @public (undocumented)
+// @public
 export function isEmail(email: string): boolean;
 
 // @public (undocumented)
@@ -1137,7 +1137,7 @@ export interface ITerm {
     active: boolean;
 }
 
-// @public (undocumented)
+// @public
 export function lowerCase(str: string): string;
 
 // @public (undocumented)
@@ -1158,7 +1158,7 @@ export class NotFoundError extends CustomError {
     statusCode: StatusCodes;
 }
 
-// @public (undocumented)
+// @public
 export const pinoLogger: (elasticsearchNode: string, name: string, level: string, index?: string, esVersion?: number) => pino.Logger;
 
 // @public (undocumented)
@@ -1173,13 +1173,13 @@ export class ServerError extends CustomError {
     statusCode: StatusCodes;
 }
 
-// @public (undocumented)
+// @public
 export const uploadFile: (file: string, { resource_type, ...options }: UploadApiOptions) => Promise<UploadApiErrorResponse | UploadApiResponse | undefined>;
 
-// @public (undocumented)
+// @public
 export const upperCase: (str: string) => string;
 
-// @public (undocumented)
+// @public
 export const verifyGatewayRequest: RequestHandler;
 
 // (No @packageDocumentation comment for this package)

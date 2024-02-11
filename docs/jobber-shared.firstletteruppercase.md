@@ -4,6 +4,8 @@
 
 ## firstLetterUppercase() function
 
+ firstLetterUppercase This function capitalizes the first letter of the given string
+
 **Signature:**
 
 ```typescript
@@ -14,9 +16,10 @@ declare function firstLetterUppercase(str: string): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  str | string |  |
+|  str | string | the input string |
 
 **Returns:**
 
 string
+
 
